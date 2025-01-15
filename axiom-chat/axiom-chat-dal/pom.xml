@@ -52,11 +52,7 @@
             <artifactId>jackson-databind</artifactId>
         </dependency>
 
-        <!-- Spring Boot Starter Validation (for potential input validation) -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-validation</artifactId>
-        </dependency>
+
 
         <!-- Lombok (optional, if you're using Lombok annotations like @Data, @Builder, etc.) -->
         <dependency>

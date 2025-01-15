@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.dist.interview.axiom-auth</groupId>
-    <artifactId>dal-jpa</artifactId>
+    <artifactId>dal-axiom</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>dal-jpa</name>
     <description>dal-jpa</description>
@@ -40,15 +40,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+
 
 </project>
